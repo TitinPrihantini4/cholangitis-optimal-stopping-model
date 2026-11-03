@@ -1,0 +1,27 @@
+parameter_name,symbol_or_code,reference,unit,range_low,range_high,status,provenance_note,source_id
+Bilirubin Grade II anchor,,5.0,mg/dL,,,Literature-derived,TG18 Grade II criterion,1
+WBC Grade II high anchor,,12.0,10^3/uL,,,Literature-derived,TG18 Grade II criterion,1
+Creatinine organ dysfunction anchor,,2.0,mg/dL,,,Literature-derived,TG18 Grade III renal dysfunction,1
+Platelet organ dysfunction anchor,,100.0,10^3/uL,,,Literature-derived,TG18 Grade III hematologic dysfunction,1
+Albumin Grade II ratio anchor,,0.7,x lower limit normal,,,Literature-derived,TG18 Grade II hypoalbuminemia,1
+Albumin LLN used for illustration,,4.0,g/dL,,,Illustrative assumption,Center-specific LLN; only converts 0.70xLLN to 2.8 g/dL,NA
+ASGE decompression timing anchor,,48.0,hours,,,Literature-derived,Conditional recommendation for biliary decompression within 48 h,5
+Reference profile bilirubin,,6.0,mg/dL,,,Illustrative scenario,Not an observed patient; chosen above TG18 moderate anchor,1
+Reference profile WBC,,14.0,10^3/uL,,,Illustrative scenario,Not an observed patient; chosen above TG18 moderate anchor,1
+Reference profile creatinine,,1.35,mg/dL,,,Illustrative scenario,Below Grade III renal threshold,1
+Reference profile platelets,,145.0,10^3/uL,,,Illustrative scenario,Above Grade III hematologic threshold,1
+Reference profile albumin,,3.05,g/dL,,,Illustrative scenario,Near low reserve; not a universal clinical threshold,1
+k_infl_bili,k_infl_bili,0.2,model scale,0.12,0.32,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_infl_wbc,k_infl_wbc,0.32,model scale,0.2,0.44,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_org_infl,k_org_infl,0.22,model scale,0.12,0.34,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_org_cr,k_org_cr,0.34,model scale,0.22,0.48,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_org_plt,k_org_plt,0.22,model scale,0.12,0.34,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_res_recover,k_res_recover,0.05,model scale,0.025,0.075,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_res_infl,k_res_infl,0.075,model scale,0.045,0.105,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+k_res_org,k_res_org,0.11,model scale,0.07,0.15,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+hwait0,hwait0,0.0018,model scale,0.0009,0.003,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+hproc0,hproc0,0.0105,model scale,0.006,0.017,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+proc_early_penalty,proc_early_penalty,8.0,model scale,3.0,12.0,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+proc_decay,proc_decay,14.0,model scale,9,22,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+wait_beta,wait_beta,2.8,model scale,2.0,3.8,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
+proc_beta,proc_beta,0.65,model scale,0.35,0.95,Provisional structural/decision coefficient,Sensitivity range; not directly estimated from clinical literature,NA
