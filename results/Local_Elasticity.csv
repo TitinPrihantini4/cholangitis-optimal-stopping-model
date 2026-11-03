@@ -1,0 +1,15 @@
+parameter,stopping_hour_minus1pct,reference,stopping_hour_plus1pct,elasticity
+k_infl_bili,29.0,29.0,29.0,0.0
+k_infl_wbc,29.0,29.0,29.0,0.0
+k_org_infl,29.0,29.0,29.0,0.0
+k_org_cr,29.0,29.0,29.0,0.0
+k_org_plt,29.0,29.0,29.0,0.0
+k_res_recover,29.0,29.0,29.0,0.0
+k_res_infl,29.0,29.0,29.0,0.0
+k_res_org,29.0,29.0,29.0,0.0
+hwait0,29.0,29.0,28.0,-1.7241379310344827
+hproc0,28.0,29.0,29.0,1.7241379310344827
+proc_early_penalty,28.0,29.0,29.0,1.7241379310344827
+proc_decay,28.0,29.0,29.0,1.7241379310344827
+wait_beta,29.0,29.0,28.0,-1.7241379310344827
+proc_beta,28.0,29.0,29.0,1.7241379310344827

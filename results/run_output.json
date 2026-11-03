@@ -1,0 +1,111 @@
+{
+  "seed": 20260819,
+  "reference_stopping_hour": 29.0,
+  "reference_24h": {
+    "bilirubin_mg_dl": 6.2618916857582025,
+    "wbc_10e3_ul": 12.047163400296093,
+    "creatinine_mg_dl": 1.654934659318048,
+    "platelets_10e3_ul": 143.1394852896362,
+    "albumin_g_dl": 2.950588017430526,
+    "deterioration_index": 0.4707282417330867,
+    "stability_reserve": 0.22025494542330779
+  },
+  "stochastic": {
+    "median": 28.0,
+    "p2_5": 19.0,
+    "p97_5": 40.0
+  },
+  "eigenvalues": [
+    -0.065,
+    -0.085,
+    -0.055,
+    -0.045,
+    -0.035,
+    -0.18,
+    -0.15,
+    -0.05
+  ],
+  "top_prcc": [
+    {
+      "parameter": "hwait0",
+      "PRCC_stopping_hour": -0.9195731371406847,
+      "p_value": 8.766405741417491e-245
+    },
+    {
+      "parameter": "wait_beta",
+      "PRCC_stopping_hour": -0.9097443273188193,
+      "p_value": 1.7898186094373397e-230
+    },
+    {
+      "parameter": "hproc0",
+      "PRCC_stopping_hour": 0.8022396622389635,
+      "p_value": 4.3880703101688275e-136
+    },
+    {
+      "parameter": "proc_early_penalty",
+      "PRCC_stopping_hour": 0.7282954373461907,
+      "p_value": 3.1133030015380597e-100
+    },
+    {
+      "parameter": "proc_decay",
+      "PRCC_stopping_hour": 0.7031133510691617,
+      "p_value": 1.2944268107374669e-90
+    },
+    {
+      "parameter": "proc_beta",
+      "PRCC_stopping_hour": 0.5308269010929811,
+      "p_value": 6.428748927594516e-45
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "Reference moderate profile",
+      "model_stopping_hour": 29.0,
+      "deterioration_index_at_24h": 0.4707282417330867,
+      "stability_reserve_at_24h": 0.22025494542330779
+    },
+    {
+      "scenario": "Lower inflammatory burden",
+      "model_stopping_hour": 57.0,
+      "deterioration_index_at_24h": 0.2719947509920764,
+      "stability_reserve_at_24h": 0.28893494059821595
+    },
+    {
+      "scenario": "Marked cholestasis",
+      "model_stopping_hour": 25.0,
+      "deterioration_index_at_24h": 0.5199194677175372,
+      "stability_reserve_at_24h": 0.2171302534837888
+    },
+    {
+      "scenario": "Renal dysfunction emerging",
+      "model_stopping_hour": 21.0,
+      "deterioration_index_at_24h": 0.5838138394743625,
+      "stability_reserve_at_24h": 0.2088412389137254
+    },
+    {
+      "scenario": "Thrombocytopenic deterioration",
+      "model_stopping_hour": 16.0,
+      "deterioration_index_at_24h": 0.6749426044536868,
+      "stability_reserve_at_24h": 0.2016001276373181
+    },
+    {
+      "scenario": "Hypoalbuminemic low reserve",
+      "model_stopping_hour": 25.0,
+      "deterioration_index_at_24h": 0.5143150221036794,
+      "stability_reserve_at_24h": 0.19073976529339928
+    },
+    {
+      "scenario": "Combined severe laboratory profile",
+      "model_stopping_hour": 8.0,
+      "deterioration_index_at_24h": 0.8387015721130512,
+      "stability_reserve_at_24h": 0.1806714449500076
+    },
+    {
+      "scenario": "Borderline moderate profile",
+      "model_stopping_hour": 35.0,
+      "deterioration_index_at_24h": 0.39778299968926667,
+      "stability_reserve_at_24h": 0.23277570784475982
+    }
+  ],
+  "stop_fixed_tuned": 0.03950000000000001
+}
