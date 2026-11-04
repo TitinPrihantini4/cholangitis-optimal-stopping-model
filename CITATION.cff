@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use the code, simulations, or other research materials in this
+  repository, please cite this repository using the metadata below.
+type: software
+title: >-
+  ERCP Timing Before Deterioration in Acute Cholangitis Using Bilirubin
+  WBC Creatinine Platelets and Albumin Through a Stochastic Optimal
+  Stopping Model
+authors:
+  - name: Prihantini
+abstract: >-
+  Research code and supporting materials for a literature-parameterized
+  mathematical proof-of-concept investigating candidate ERCP timing in
+  acute cholangitis. The model combines nonlinear ordinary differential
+  equations for laboratory and latent physiological states, a four-state
+  continuous-time Markov chain, competing theoretical decision-cost
+  intensities, and finite-horizon optimal stopping. Numerical analyses
+  include scenario comparisons, Latin-hypercube sensitivity analysis,
+  and stochastic initial-condition perturbations. Model-derived stopping
+  times are illustrative computational outputs, not clinically validated
+  treatment recommendations.
+keywords:
+  - acute cholangitis
+  - ERCP
+  - optimal stopping
+  - mathematical modeling
+  - ordinary differential equations
+  - continuous-time Markov chain
+  - uncertainty quantification
